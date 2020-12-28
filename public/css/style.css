@@ -3,7 +3,7 @@
 .negritaText{ font-weight : bold; }
 
 .titulo{
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .centrarDiv{
@@ -21,7 +21,8 @@
 }
 
 .margenTexto{
-  margin: 12px;
+  /* margin: 12px; */
+  margin-left: 12px;
 }
 
 .btn-color-rosa{
@@ -32,4 +33,36 @@
 
 .text-bg-rosa{
   color:blueviolet;
+  
+  text-decoration: underline;
+}
+
+
+/* ---- */
+
+
+.margenForm{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.imagenRandom{
+  /* border-radius: 8px; */
+  
+  /* width: 100%; */
+
+  
+  height: auto;
+  /* background-color: powderblue; */
+}
+
+
+/* alinear verticalmente */
+
+.verticalDivPadre{
+  padding: 5% 0;
+}
+
+.verticalDivHijo{
+  padding: 10% 0;
 }
