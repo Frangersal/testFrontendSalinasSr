@@ -68,9 +68,10 @@
             <div class="col-sm-4 bg-secondary">
 
                 <div class="row">
-                    <div class="col-sm-12 bg-warning centrarDiv">
-        
-                        <label class="centerText normalText">Titulo</label><label class="centerText negritaText">Titulo</label>
+                    <div class="col-sm-12 bg-warning justificarDiv">
+                        <div>
+                            <label class="centerText normalText">Titulo</label><label class="centerText negritaText">Titulo</label>
+                        </div>
                             
                     </div>
                 </div>
@@ -79,12 +80,14 @@
                     <div class="col-sm-12 bg-warning">
                         
                         <div class="mb-3" id="formulario">
-                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <label for="exampleFormControlInput1" class="margenTexto">Nombre</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                           </div>
                           <div class="mb-3">
-                            <label for="exampleFormControlTextarea1"  class="form-label">Contraseña</label>
+                            <label for="exampleFormControlTextarea1"  class="margenTexto">Contraseña</label>
                             <input class="form-control" v-model="contenido" id="exampleFormControlTextarea1" rows="3" placeholder="nada"></input>
+                            
+                            <a href="#" class="text-bg-rosa">olvide mi contraseña</a>
                             <br>
                             <button class="btn btn-success btn-lg btn-block" type="button">Enviar</button>
                         </div>
@@ -105,8 +108,9 @@
         <div class="row">
             <div class="col-sm-12 bg-warning">
 
-                <samp class="centerText normalText">Titulo</samp><sa class="centerText negritaText">Titulo</samp>
-               
+                <div>
+                    <label class="centerText normalText">Titulo</label><label class="centerText negritaText">Titulo</label>
+                </div>
 
             </div>
 
