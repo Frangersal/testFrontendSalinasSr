@@ -3,8 +3,14 @@
 .negritaText{ font-weight : bold; }
 
 .titulo{
-  font-size: 25px;
+  font-size: 20px;
   margin: 6px;
+  display: inline;
+}
+
+.block{
+  
+  display: inline;
 }
 
 .centrarDiv{
@@ -43,8 +49,8 @@
 
 
 .margenForm{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .imagenRandom{
@@ -70,7 +76,7 @@
 
 .hrVertical{
   border-right: 1px solid rgb(177, 177, 177) ;
-  height: 100%;
+  height: 10%;
 }
 
 .btnAjustes{
