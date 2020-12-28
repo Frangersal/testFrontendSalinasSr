@@ -4,6 +4,7 @@
 
 .titulo{
   font-size: 25px;
+  margin: 6px;
 }
 
 .centrarDiv{
@@ -65,4 +66,9 @@
 
 .verticalDivHijo{
   padding: 10% 0;
+}
+
+.hrVertical{
+  border-right: 1px solid black ;
+  height: 100%;
 }
