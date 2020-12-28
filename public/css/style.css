@@ -4,14 +4,14 @@
 
 .titulo{
   font-size: 20px;
-  margin: 6px;
-  display: inline;
+  /* margin: 6px; */
+  /* display: inline; */
 }
 
-.block{
+/* .block{
   
   display: inline;
-}
+} */
 
 .centrarDiv{
   /* height: 300px;
@@ -57,9 +57,10 @@
   /* border-radius: 8px; */
   
   /* width: 100%; */
-
-  
-  height: auto;
+  padding: 10px;
+   border: 10px; 
+  margin: 10px;  
+  height: 100px;
   /* background-color: powderblue; */
 }
 
