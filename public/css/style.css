@@ -2,6 +2,10 @@
 .normalText{ font-weight : normal; }
 .negritaText{ font-weight : bold; }
 
+.titulo{
+  font-size: 16px;
+}
+
 .centrarDiv{
   /* height: 300px;
   width: 300px; */
@@ -17,9 +21,14 @@
 }
 
 .margenTexto{
-  margin: 8px;
+  margin: 12px;
 }
 
+.btn-color-rosa{
+  
+  /* margin: 12px; */
+  background-color: blueviolet;
+}
 
 .text-bg-rosa{
   color:blueviolet;
