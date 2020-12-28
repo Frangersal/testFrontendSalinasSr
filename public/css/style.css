@@ -1,0 +1,11 @@
+.centerText{ text-align : center; }
+.normalText{ font-weight : normal; }
+.negritaText{ font-weight : bold; }
+
+.centrarDiv{
+  /* height: 300px;
+  width: 300px; */
+  background-color: powderblue;
+  display:block;
+  margin:auto;
+}
