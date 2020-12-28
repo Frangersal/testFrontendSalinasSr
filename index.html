@@ -29,23 +29,74 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-success navbar-dark">
+<nav class="navbar navbar-expand-lg bg-morado navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <img src="public/images/LOGO3.jpg" alt="logo" class="logo" style=" width:100px;">
+            <img src="public/images/logo_blanco.png" alt="logo"  style=" width:135px;">
         </a>
         <!-- <a href="/" class="navbar-brand">Bootstrap 4</a> -->
         <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar9">
             <span class="navbar-toggler-icon"></span>
         </button>
+
+ 
+
+        
         <div class="navbar-collapse collapse" id="navbar9">
+
+            <!-- Center -->
+            <div class="row">
+                
+            </div>
+            <ul class="navbar-nav navbar-center">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle colorTextWhite" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        
+                        <B>Obras</B>
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                    </div>
+                  </li>
+
+
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle colorTextWhite" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><B>
+                    
+                    </B>Artistas</a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Rigth -->
+            
+            
             <ul class="navbar-nav ml-auto">
+
                 <li class="nav-item">
                     
-                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="navbar-brand" href="#">
+                        <img src="public/images/recortes-57 (1).png" alt="logo"  style=" width:20px;">
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="form.html">Contacto</a>
+                    <a class="navbar-brand" href="#">
+                        <img src="public/images/recortes-58 (1).png" alt="logo"  style=" width:20px;">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    
+                    <a class="navbar-brand" href="#">
+                        <img src="public/images/recortes-59 (1).png" alt="logo"  style=" width:20px;">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#">
+                        <img src="public/images/recortes-60 (1).png" alt="logo"  style=" width:20px;">
+                    </a>
                 </li>
             </ul>
         </div>
@@ -67,9 +118,11 @@
             <div class="col-sm-4 ">
 
                 <div class="row">
+                    <br>
                     <div class="col-sm-12  justificarDiv">
-                        <div class="block">
-                            <label class="centerText normalText titulo">Iniciar&nbsp;<b>Sesion</b></label>
+                        <div>
+                            <br>
+                            <span class="centerText normalText titulo">Iniciar</span><span class="centerText negritaText titulo colorText"> sesion</span>
                         </div>
                             
                     </div>
@@ -79,19 +132,19 @@
                     <div class="col-sm-12 ">
                         
                         <div class="mb-3" id="formulario">
-                            <label for="exampleFormControlInput1" class="margenTexto">Nombre</label>
+                            <label for="exampleFormControlInput1" class="margenTexto colorText">Nombre</label>
                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                           </div>
                           <div class="mb-3 ">
-                            <label for="exampleFormControlTextarea1"  class="margenTexto">Contraseña</label>
+                            <label for="exampleFormControlTextarea1"  class="margenTexto colorText">Contraseña</label>
                             <input class="form-control" v-model="contenido" id="exampleFormControlTextarea1" rows="3" placeholder="nada"></input>
                             <br>
-                            <a href="#" class="text-bg-rosa">olvide mi contraseña</a>
+                            <a href="#" class="text-bg-rosa">Olvide mi contraseña</a>
                             <br> <br> 
 
                             <div class="justificarDiv">
                                 <div class="col-12  justificarDiv">
-                                    <button class="btn-color-rosa  btnAjustes" type="button">Enviar</button>
+                                    <button class="bg-rosa  btnAjustes" type="button">Entrar</button>
                                 </div>
                             </div>
 
@@ -113,7 +166,7 @@
         <div class="row">
             <div class="col-sm-12  justificarDiv">
                 <div>
-                    <span class="centerText normalText titulo">Crear</span><span class="centerText negritaText titulo">cuenta</span>
+                    <span class="centerText normalText titulo colorText">Crear</span><span class="centerText negritaText titulo colorText" >cuenta</span>
                 </div>
                     
             </div>
@@ -134,43 +187,43 @@
                     </div>
                     <div class="justificarDiv">
                         <div>
-                            <span class="centerText normalText titulo">Soy</span><span class="centerText negritaText titulo"> coleccionista</span>
+                            <span class="centerText normalText titulo">Soy</span><span class="centerText negritaText titulo colorText"> coleccionista</span>
                         </div>
                        
                     </div>
                     <br>
                     <div>
-                        <p class="centerText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eius autem error explicabo. </p>
+                        <p class="centerText colorText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eius autem error explicabo. </p>
                     </div>
 
                     <div class="mb-3" id="formulario">
-                        <label for="exampleFormControlInput1" class="margenTexto">Nombre</label>
+                        <label for="exampleFormControlInput1" class="margenTexto colorText">Nombre completo</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
                     <div class="mb-3" id="formulario">
-                        <label for="exampleFormControlInput1" class="margenTexto">Nombre</label>
+                        <label for="exampleFormControlInput1" class="margenTexto colorText">Tu correo</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
                         <div class="mb-3" id="formulario">
-                            <label for="exampleFormControlInput1" class="margenTexto">Nombre</label>
+                            <label for="exampleFormControlInput1" class="margenTexto colorText">Contraseña</label>
                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                         </div>
                         <div class="mb-3 ">
-                        <label for="exampleFormControlTextarea1"  class="margenTexto">Contraseña</label>
+                        <label for="exampleFormControlTextarea1"  class="margenTexto colorText">Repetir contraseña</label>
                         <input class="form-control" v-model="contenido" id="exampleFormControlTextarea1" rows="3" placeholder="nada"></input>
                         <br>
 
                         <input type="checkbox" name="" id="">
-                        <span> Al registrame acepto las</span>
-                        <a href="#" class="text-bg-rosa">Politicas de privacidd </a>
-                        <span> y los </span>
+                        <span class="sizeText colorText"> Al registrame acepto las</span>
+                        <a href="#" class="text-bg-rosa sizeText">Politicas de privacidd </a>
+                        <span class="sizeText colorText"> y los </span>
                         
-                        <a href="#" class="text-bg-rosa">Terminos y condiciones </a>
+                        <a href="#" class="text-bg-rosa sizeText">Terminos y condiciones </a>
                         <br> <br> 
 
                         <div class="justificarDiv">
                             <div class="col-12  justificarDiv">
-                                <button class="btn-color-rosa btnAjustes" type="button">Enviar</button>
+                                <button class="bg-rosa btnAjustes" type="button">Crear cuenta</button>
                             </div>
                         </div>
 
@@ -186,7 +239,7 @@
                
 
             </div>
-            <div class="col-sm-12 col-md-6 hrVertical  verticalDivPadre ">
+            <div class="col-sm-12 col-md-6   verticalDivPadre ">
 
                 <div class=" verticalDivHijo ">
                     <div class="margenForm">
@@ -199,7 +252,7 @@
                         <div class="justificarDiv">
                             
                             <div>
-                                <span class="centerText normalText titulo">Soy</span><span class="centerText negritaText titulo"> artista</span>
+                                <span class="centerText normalText titulo colorText">Soy</span><span class="centerText negritaText titulo colorText"> artista</span>
                             </div>
 
                            
@@ -207,7 +260,7 @@
                         </div>
                         <br>
                         <div>
-                            <p class="centerText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eius autem error explicabo. </p>
+                            <p class="centerText colorText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eius autem error explicabo. </p>
                         </div>
     
     
@@ -215,7 +268,7 @@
                           
                             <div class="justificarDiv">
                                 <div class="col-12  justificarDiv">
-                                    <button class="btn-color-rosa  btnAjustes" type="button">Enviar</button>
+                                    <button class="bg-rosa  btnAjustes" type="button">Aplicar ahora</button>
                                 </div>
                             </div>
     

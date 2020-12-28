@@ -2,16 +2,29 @@
 .normalText{ font-weight : normal; }
 .negritaText{ font-weight : bold; }
 
-.titulo{
-  font-size: 20px;
-  /* margin: 6px; */
-  /* display: inline; */
+.logo{
+  margin-top:40px;
+    margin: 5px;
+}
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
 
-/* .block{
-  
-  display: inline;
-} */
+.titulo{
+  font-size: 20px;
+}
+
+.sizeText{
+  font-size: 12px;
+}
+.colorTextWhite{
+  color:#ffffff
+}
+.colorText{
+  color:#696969
+}
 
 .centrarDiv{
   /* height: 300px;
@@ -32,10 +45,14 @@
   margin-left: 12px;
 }
 
-.btn-color-rosa{
+.bg-rosa{
   
   /* margin: 12px; */
   background-color: blueviolet;
+}
+
+.bg-morado{
+  background-color: rgb(23, 0, 24);
 }
 
 .text-bg-rosa{
